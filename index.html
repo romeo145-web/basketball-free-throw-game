@@ -1,0 +1,13 @@
+# ローカルで新規リポジトリ初期化
+mkdir basketball-free-throw-game
+cd basketball-free-throw-game
+git init
+
+# 上記の3つのファイル (index.html, style.css, game.js) を作成
+
+# GitHubにプッシュ
+git add .
+git commit -m "Initial commit: Basketball Free Throw Game"
+git branch -M main
+git remote add origin https://github.com/romeo145-web/basketball-free-throw-game.git
+git push -u origin main
